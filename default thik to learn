@@ -1,0 +1,33 @@
+npm install -g @angular/cli
+
+ng new my-app
+
+cd my-app
+ng serve --open
+
+ng g c <componentName> --spec flase	
+
+@Input
+
+@Output
+
+@ViewChild
+
+@ContentChild
+
+refeance
+
+lifecycle		73
+	a)ngONChanges
+	b)ngOnInit
+	c)ngDoCheck
+	d)ngAfterContentInit
+	e)ngAfterContentChecked
+	f)ngAfterViewInit	
+	g)ngAfterViewChecked
+	h)ngOnDestroy
+
+
+
+
+
