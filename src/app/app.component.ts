@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-complete-guide';
+  loadFeature='recipe';
+  onNavigate(feature:string){
+    this.loadFeature=feature;
+  }
 }
